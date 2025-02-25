@@ -13,7 +13,7 @@ dotenv.config();
 
 
 const PORT = process.env.PORT;
-const __direname = path.resolve();
+const __dirname = path.resolve();
 
 // Middleware
 app.use(express.json({ limit: '5mb' }));  // Increase payload limit to 50MB
